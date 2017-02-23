@@ -50,3 +50,19 @@ header.div {
     margin: 0 auto;
 }
 
+/*-------------------------------
+Chart
+--------------------------------*/
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p {
+    color: grey;
+    font-family: 'Pathway Gothic One';
+    font-size: 12px;
+}
+
