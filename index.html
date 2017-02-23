@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <a href="index.html"><img class="logo" src="img/cloud.svg"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="marketresults.html">National Weather Service</a></li>
+                <li><a href="http://skymall.com">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <body>
-        <div id="inches">
-            <input id="user-input" type="text" placeholder="Enter amount to convert">>
-            <select name="inches">
+        <div id=conversion>
+            <input type="text" placeholder="Enter amount to convert">
+            <select name="measurement">
                 <option value="inches">Inches to Centimeters</option>
                 <option value="centimeters">Centimeters to Inches</option>
-            </select>
-            <button type="submit"><button>
-        </div>
-        <div id="miles">
-            <input type="text" placeholder="Enter amount to convert">
-            <select name="miles">
                 <option value="miles">Miles to Kilometers</option>
                 <option value="kilometers">Kilometers to Miles</option>
-            </select>
-            <button type="submit"></button>
-        </div>
-        <div id="pounds">
-            <input type="text" placeholder="Enter amount to convert">
-            <select name="pounds">
                 <option value="pounds">Pounds to Kilograms</option>
                 <option value="kilograms">Kilograms to Pounds</option>
-            </select>
-            <button type="submit"></button>
-        </div>
-        <div id="shit-ton">
-            <input type="text" placeholder="Enter amount to convert">
-            <select name="shit-ton">
                 <option value="english-shit-ton">English Shit-Ton to Metric Shit-Ton</option>
                 <option value="metric-shit-ton">Metric Shit-Ton to English Shit-Ton</option>
             </select>
-            <button type="submit"></button>
+            <button type="submit">Submit</button>
         </div>
     </body>
     <footer></footer>
