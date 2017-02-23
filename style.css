@@ -1,0 +1,9 @@
+body {
+  max-width: 960px;
+  max-height: auto;
+}
+
+div {
+  border: 1px solid black;
+}
+
