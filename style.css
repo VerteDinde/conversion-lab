@@ -1,9 +1,52 @@
-body {
-  max-width: 960px;
-  max-height: auto;
+/*-------------------------------
+Fonts
+--------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|PT+Sans|Titan+One');
+@import url('https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One|Sonsie+One');
+
+/*-------------------------------
+Header
+--------------------------------*/
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background-image: url('other-img/vw-bus.jpg');
+    text-align: center;
 }
 
-div {
-  border: 1px solid black;
+nav img {
+    float: left;
+    padding: 10px 30px;
+    width: 64px;
+    height: 64px;
+}
+
+nav ul {
+    float: right;
+    padding: 10px 30px;
+}
+
+nav li {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    font-family: 'Pathway Gothic One';
+    font-size: 20px;
+}
+
+nav:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+header.div {
+    margin: 0 auto;
 }
 
