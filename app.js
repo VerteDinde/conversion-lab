@@ -48,4 +48,5 @@ submitButton.addEventListener('click', selectTrigger);
 
 function selectTrigger() {
   console.log('Hello world!');
+
 };
