@@ -46,3 +46,6 @@ var miles = Document.getElementById('miles');
 var pounds = Document.getElementById('pounds');
 var shitTon = Document.getElementById('shit-ton');
 
+conversion.addEventListener('select', function selectTrigger() {
+  if () {}
+});
