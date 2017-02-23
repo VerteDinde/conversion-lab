@@ -1,6 +1,8 @@
 
 'use strict';
 
+
+
 function inToCen(inch) {
   return inches * 2.54;
 }
@@ -41,8 +43,5 @@ function estToMst(est) {
   return est * 0.75;
 }
 
-var inches = Document.getElementById('inches');
-var miles = Document.getElementById('miles');
-var pounds = Document.getElementById('pounds');
-var shitTon = Document.getElementById('shit-ton');
+var conversion = document.getElementById('conversion');
 
