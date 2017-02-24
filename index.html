@@ -18,11 +18,13 @@
         <h1></h1>
         <p>Closing circle salvia leave no trace, sunset to end suffering geodesic dome. Ecofriendly with a dash of cayenne pepper new paradigm bodyworker indigo child, trust the process loving kindness feeling triggered. Colloidal silver coconut water patchouli cleansing nature entheogen, earth mother mala beads on the playa himalayan sea salt. Stevia non-attachment universal marinese kapha imbalance LSD nonviolent communication aho, prius master sound healing. Namaste.</p>
         </br>
-        <div id="conversion">
-            <input name="user_input" type="text" placeholder="Enter amount to convert">
+        <form id="conversion">
+            <input name="user_input" type="text" placeholder="Enter amount to convert" id="text">
             <select name="measurement" id="measurement">
                 <option selected value="inches">Inches to Centimeters</option>
                 <option value="centimeters">Centimeters to Inches</option>
+                <option value="floz">Fluid Ounces to Millileters</option>
+                <option value="ml">Millileters to Fluid Oz</option>
                 <option value="miles">Miles to Kilometers</option>
                 <option value="kilometers">Kilometers to Miles</option>
                 <option value="pounds">Pounds to Kilograms</option>
@@ -30,8 +32,9 @@
                 <option value="english-shit-ton">English Shit-Ton to Metric Shit-Ton</option>
                 <option value="metric-shit-ton">Metric Shit-Ton to English Shit-Ton</option>
             </select>
-            <button id="submit-button" type="submit">Submit</button>
-        </div>
+            <input type="submit">
+        </form>
+        <div id="results"></div>
         <div class="line-break"></div>
         <div class="weather-images"></div>
     </main>
