@@ -4,7 +4,7 @@
 
 
 function inToCen(inch) {
-  return inches * 2.54;
+  return inch * 2.54;
 }
 
 function cenToIn(cen) {
@@ -43,5 +43,10 @@ function estToMst(est) {
   return est * 0.75;
 }
 
-var conversion = document.getElementById('conversion');
+var submitButton = document.getElementById('submit-button');
+submitButton.addEventListener('click', selectTrigger);
 
+function selectTrigger() {
+  console.log('Hello world!');
+
+};

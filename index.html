@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <a href="index.html"><img class="logo" src="img/cloud.svg"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="marketresults.html">National Weather Service</a></li>
+                <li><a href="http://skymall.com">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <body>
-        <div id="inches">
-            <input id="user-input" type="text" placeholder="Enter amount to convert">>
-            <select name="inches">
+    <main>
+        <h1></h1>
+        <p>Closing circle salvia leave no trace, sunset to end suffering geodesic dome. Ecofriendly with a dash of cayenne pepper new paradigm bodyworker indigo child, trust the process loving kindness feeling triggered. Colloidal silver coconut water patchouli cleansing nature entheogen, earth mother mala beads on the playa himalayan sea salt. Stevia non-attachment universal marinese kapha imbalance LSD nonviolent communication aho, prius master sound healing. Namaste.</p>
+        </br>
+        <div id="conversion">
+            <input type="text" placeholder="Enter amount to convert">
+            <select name="measurement">
                 <option value="inches">Inches to Centimeters</option>
                 <option value="centimeters">Centimeters to Inches</option>
-            </select>
-            <button type="submit"><button>
-        </div>
-        <div id="miles">
-            <input type="text" placeholder="Enter amount to convert">
-            <select name="miles">
                 <option value="miles">Miles to Kilometers</option>
                 <option value="kilometers">Kilometers to Miles</option>
-            </select>
-            <button type="submit"></button>
-        </div>
-        <div id="pounds">
-            <input type="text" placeholder="Enter amount to convert">
-            <select name="pounds">
                 <option value="pounds">Pounds to Kilograms</option>
                 <option value="kilograms">Kilograms to Pounds</option>
-            </select>
-            <button type="submit"></button>
-        </div>
-        <div id="shit-ton">
-            <input type="text" placeholder="Enter amount to convert">
-            <select name="shit-ton">
                 <option value="english-shit-ton">English Shit-Ton to Metric Shit-Ton</option>
                 <option value="metric-shit-ton">Metric Shit-Ton to English Shit-Ton</option>
             </select>
-            <button type="submit"></button>
+            <button id="submit-button" type="submit">Submit</button>
         </div>
-    </body>
-    <footer></footer>
+        <div class="line-break"></div>
+        <div class="weather-images"></div>
+    </main>
+    <footer>
+        <p>Made by Morgan, Jade, Grayson and Keeley</p>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
