@@ -53,7 +53,7 @@ function selectTrigger() {
 
   if (get === 'inches') {
     answer = inToCen(userInput);
-  } else if (get === 'miles') {
+  } else if (get === 'centimeters') {
     answer = cenToIn(userInput);
   } else if(get === 'fluidoz') {
     answer = fluidOzToMl(userInput);
