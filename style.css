@@ -8,9 +8,13 @@ Fonts
 /*-------------------------------
 Header
 --------------------------------*/
-
+main {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
 header {
-    width: 100%;
+    width: 960px;
     margin: 0 auto;
     padding: 20px 20px;
     text-align: center;
@@ -49,6 +53,28 @@ header.div {
     margin: 0 auto;
 }
 
+#conversion {
+    text-align: center;
+}
+
+#measurement {
+    font-size: 0.75em;
+}
+
+#text {
+    font-size: 0.75em;
+}
+
+.weather-images img {
+    width: 86px;
+    height: 86px;
+    padding: 10px;
+}
+
+.weather-images {
+    margin: 20px;
+    padding: 10px;
+}
 /*-------------------------------
 Chart
 --------------------------------*/
