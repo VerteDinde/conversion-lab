@@ -47,6 +47,10 @@ var submitButton = document.getElementById('submit-button');
 submitButton.addEventListener('click', selectTrigger);
 
 function selectTrigger() {
-  console.log('Hello world!');
-
+  var userInput = event.target.user_input.value;
+  var get = document.getElementById('measurement').value;
+  console.log(get);
+  if(get === 'inches') {
+    inToCen(userInput);
+  }
 };
